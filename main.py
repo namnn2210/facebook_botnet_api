@@ -54,7 +54,7 @@ async def login(user_login: UserLogin):
     password = user_login.password
 
     proxy = 'division1tckl_gmail_com:xPTMylKzxi@63.161.13.114:3128'
-    driver = Driver(uc=True, headless=False, proxy=proxy)
+    driver = Driver(uc=True, headless=True, proxy=proxy)
 
     driver.open("https://www.facebook.com")
 
